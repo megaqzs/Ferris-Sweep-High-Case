@@ -1,22 +1,15 @@
-# Ferris-Sweep-Bling-MX-Case
+# Ferris-Sweep-High-Case
 A customizable, 3D-print-friendly case designed in OpenSCAD – fully parametric for easy sizing, modification, and rapid prototyping.
-![](gallery/case_05.jpg)
 
 **Features**
 
-* **Fully enclosed, professional design** – clean look with no exposed internals
+* **Partially enclosed design with controller cover** – clean look with no exposed internals
 * **USB-C port access** – plug in without removing the case
-* **Integrated controls** – built-in slider for power switch and reset button
-* **Vibration-dampened** – TPU-printable switch plate and bottom damper for reduced noise
 * **Easy PCB insertion** – no need to remove switches or keycaps
 * **Secure bottom lid** – mounted with heat-set M2 threaded inserts
-* **Refined acoustics** – quiet, pleasant typing sound
-
-| ![](gallery/case_01.jpg) | ![](gallery/case_02.jpg) |
-|--------------------------|--------------------------|
-| ![](gallery/case_03.jpg) | ![](gallery/case_04.jpg) |
+* **Supports both mx and choc, with reversible footprints** – due to the use of a reversible footprint, this design is more easy to customize
 
 ---
 
-📦 **Download & Print**  
-This model is also available on [MakerWorld](https://makerworld.com/de/models/1706706-ferris-sweep-bling-mx-case#profileId-1811389).
+📦 **Original**
+The original version of this model is available at the account of [LukasStu](https://github.com/LukasStu/Ferris-Sweep-Bling-MX-Case).
