@@ -116,13 +116,13 @@ module jack_cutout() { translate([110.85, 26, fr4_thickness+jack_hole_diameter/2
 
 // -------------------- Module: case_feet_holes --------------------
 module case_feet_holes() {
-    extrude_layer(L_feet_markers, z=Z_LID_BASE, h=feet_depth, delta=feet_diameter-feet_marker_diameter); 
+    extrude_layer(L_feet_markers, z=Z_LID_BASE, h=feet_depth, delta=(feet_diameter-feet_marker_diameter)/2); 
     //drill_holes(feet_positions, feet_diameter, Z_LID_BASE, feet_depth);
 }
 
 // -------------------- Module: case_screw_holes --------------------
 module case_screw_holes() { 
-    extrude_layer(L_hole_markers, z=Z_LID_BASE, h=case_thickness, delta=case_screw_diameter-screw_marker_diameter); 
+    extrude_layer(L_hole_markers, z=Z_LID_BASE, h=case_thickness, delta=(case_screw_diameter-screw_marker_diameter)/2); 
 
 //drill_holes(screw_positions, case_screw_diameter, Z_LID_BASE,case_thickness); 
 }
