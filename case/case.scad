@@ -50,7 +50,7 @@ feet_marker_diameter = 7.0;
 feet_depth = 1.2;
 
 // Screw sizes
-case_screw_diameter = 3.4;
+case_screw_diameter = 2.9;
 screw_marker_diameter = 2.2;
 
 // Clearances
