@@ -23,8 +23,8 @@ pcb_and_plate_thickness = fr4_thickness+case_thickness;
 w_shell = 8.94;
 h_shell = 3.26;
 r_corner = 1.2;
-pcb_usb_distance = 3;
-Z_USB = h_shell / 2 + pcb_usb_distance;
+pcb_usb_distance = 3; // distance of pcb to bottom of usb
+Z_USB = h_shell + pcb_usb_distance;
 //, 64.72
 usb_main_offset = [104.59, 62.81+wall_thickness, Z_USB];
 usb_tunnel_offset = [113.45-w_shell/2, 62.81+50, Z_USB];
